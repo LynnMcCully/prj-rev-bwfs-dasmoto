@@ -1,0 +1,48 @@
+h1 {
+  font-family: Helvetica;
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg);
+}
+
+h2 {
+  font-family: Helvetica;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+#brushes h2 {
+  background-color: mediumspringgreen;
+}
+
+#frames h2 {
+  background-color: lightcoral;
+}
+
+#paint h2 {
+  background-color: skyblue;
+}
+
+#brushes p:after {
+  content: "Starting at $3.00 / brush.";
+  font-family: Helvetica;
+  font-weight: bold;
+  color: blue;
+}
+
+#frames p:after {
+  content: "Starting at $2.00 / frame.";
+  font-family: Helvetica;
+  font-weight: bold;
+  color: blue;
+}
+
+#paint p:after {
+  content: "Starting at $5.00 / tube.";
+  font-family: Helvetica;
+  font-weight: bold;
+  color: blue;
+}
